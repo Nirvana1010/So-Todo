@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="110dp"
+    android:gravity="center_vertical"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/item_todo_postion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="1"
+        android:gravity="center"
+        android:textColor="#0d0c0c"
+        android:textSize="18sp" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        >
+
+        <TextView
+            android:id="@+id/item_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="日程标题"
+            android:textColor="#0d0c0c"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/item_start_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_title"
+            android:text="开始时间"
+            android:textColor="#0d0c0c"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/item_end_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_title"
+            android:layout_marginLeft="15dp"
+            android:textColor="#0d0c0c"
+            android:layout_toRightOf="@+id/item_start_time"
+            android:text="结束时间"
+            android:textSize="15sp" />
+
+
+    </RelativeLayout>>
+
+</LinearLayout>

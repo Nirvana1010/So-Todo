@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">SoTodo</string>
+    <string name="hello">欢迎，</string>
+    <string name="work">工作</string>
+    <string name="play">娱乐</string>
+    <string name="life">生活</string>
+    <string name="timer">开始</string>
+    <string name="others">其它</string>
+    <string name="title">标题</string>
+    <string name="remark">备注</string>
+    <string name="time">6月6日 00:00</string>
+    <string name="create">新建</string>
+    <string name="synchronize">同步</string>
+    <string name="ok">确定</string>
+    <string name="cancel">返回</string>
+    <string name="start">开始</string>
+
+</resources>

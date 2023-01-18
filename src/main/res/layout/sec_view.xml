@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bck1_new">
+
+    <TextView
+        android:id="@+id/item_re_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="日程标题"
+        android:textColor="#0d0c0c"
+        android:textSize="25dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="100dp"
+        />
+
+    <TextView
+        android:id="@+id/item_re_start_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item_re_title"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="35dp"
+        android:text="开始时间"
+        android:textColor="#0d0c0c"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/item_re_end_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item_re_start_time"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="100dp"
+        android:textColor="#0d0c0c"
+        android:text="结束时间"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/idit"
+        android:layout_gravity="bottom"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/item_re_end_time"
+        android:text="编辑"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/normal_btn"
+        android:layout_marginTop="240dp"
+        />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_gravity="bottom"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/item_re_end_time"
+        android:layout_toRightOf="@+id/idit"
+        android:text="删除"
+        android:background="@drawable/normal_btn"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="100dp"
+        />
+
+</RelativeLayout>

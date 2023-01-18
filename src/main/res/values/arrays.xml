@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="event">
+        <item>工作</item>
+        <item>学习</item>
+        <item>运动</item>
+        <item>其他</item>
+    </string-array>
+
+    <string-array name="event1">
+        <item>工作</item>
+        <item>学习</item>
+        <item>运动</item>
+        <item>休息</item>
+        <item>吃饭</item>
+        <item>玩乐</item>
+        <item>其他</item>
+    </string-array>
+</resources>
