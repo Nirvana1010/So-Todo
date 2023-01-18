@@ -13,4 +13,4 @@ An Android application for time management.
 - Schedule Management
 - Calendar Synchronization
 
-Demo of this application can be found [here](https://drive.google.com/file/d/1S02Z-pdu-mbXXzsNi0_NKL0_Ap3WCgNv/view?usp=sharing).
+Video demo of this application can be found [here](https://drive.google.com/file/d/1S02Z-pdu-mbXXzsNi0_NKL0_Ap3WCgNv/view?usp=sharing).
